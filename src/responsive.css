@@ -1,0 +1,72 @@
+@media screen and (max-width: 992px) {
+    .contact{
+       margin-top: 5px;
+    }
+    .service{
+        margin-top: 25px;
+    }
+    .menu-section{
+        background: rgb(247, 243, 243);
+        margin-top: 10px;
+    }
+    .menu, .sub_menu{
+        margin-left: 15px;
+      }
+    #basic-nav-dropdown{
+        margin-left: 1.5px;
+    }
+    .hamburger{
+        margin-top: -15px;
+    }
+    #banner{
+        background-image: none;
+        margin-bottom: 650px;
+    }
+    .banner_page{
+        flex-direction: column;
+      }
+    #banner .hero{
+        text-align: center;
+     }
+     #banner .btn_container .btn1{
+        background: #FFF3F3;
+    }
+    #banner p{
+        width:400px;
+        font-size: 16px;
+    }
+    #banner .bottom_right_container{
+        flex-wrap: wrap;
+    }
+    #banner .btn3{
+        margin-top: 18px;
+        margin-left: 70px;
+    }
+    .feature .feature_container{
+       flex-direction: column;
+    }
+    .feature .feature_left_img{
+       width:95%;
+     }
+     .feature .txt{
+        width:400px;
+     }
+     .feature_bottom .feature_container{
+        flex-direction: column;
+     }
+     .feature_bottom .feature_right_img{
+        margin-left: 3px;
+        width:430px;
+      }
+
+      .feature_bottom .btn3{
+        margin-bottom: 30px;
+      }
+      .feature_bottom .txt{
+        width:400px;
+     }
+     .square h5{
+        font-size: 10px;
+        color:#1A1A1A;
+      }
+  }
