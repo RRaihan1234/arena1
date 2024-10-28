@@ -25,6 +25,24 @@ import s5 from './images/s5.png';
 import s6 from './images/s6.png';
 import s7 from './images/s7.png';
 import s8 from './images/s8.png';
+import mark1 from './images/mark1.png';
+import prod_left from './images/prod_left.png';
+import prod_right from './images/prod_right.png';
+import smc from './images/smc.png';
+import bkash from './images/bkash.png';
+import download from './images/download.png';
+import mark3 from './images/mark3.png';
+import mark4 from './images/mark4.png';
+import dotnet from './images/dotnet.png';
+import flutter from './images/flutter.png';
+import react from './images/react.png';
+import angular from './images/angular.png';
+import aws from './images/aws.png';
+import php from './images/php.png';
+import java from './images/java.png';
+import vue from './images/vue.png';
+import bootstrap from './images/bootstrap.png';
+import python from './images/python.png';
 
 function App() {
   return (
@@ -223,6 +241,80 @@ function App() {
                  <div className='services_btn'>
                     <button className='btn3'>More Services <img src={mark}></img> </button>
                 </div>
+               </Container>
+            </div>
+        </section>
+
+        <section id="products">
+           <Container>
+              <div className='header_container'>
+                 <span className="heading">Our Signature Products</span>
+                 <button className='prod_btn'>More Products <img src={mark1}></img> </button>
+              </div>
+              <div className="parent">
+                  <div className="left_child">
+                     <div className="prod_left">
+                         <img src={prod_left} className="prod_left_img"></img>
+                     </div>
+                     <div className='prod_bottom left'>
+                        <h5>fieldforce</h5>
+                        <div>
+                           <span className='headingTxt'>Implement Company</span>
+                           <img className="smc" src={smc}></img>
+                           <img className="bkash1" src={bkash}></img>
+                           <img className="bkash2" src={bkash}></img>
+                           <button className='mark4'>Client Feedback <img src={mark4}></img> </button>
+                        </div>
+                        <p className='txt'>Field force management software is a solution to manage and optimize the field-based operations of an organization</p>
+                        <div>
+                           <button className='btn3'>Download Brochure <img src={download}></img> </button>
+                           <span>www.fieldforce.work <img src={mark3}></img></span>
+                        </div>
+                     </div>
+                  </div>
+                  <div>
+                  <div className="prod_right">
+                         <img src={prod_right} className="prod_right_img"></img>
+                     </div>
+                     <div className='prod_bottom right'>
+                        <h5>Richfleet</h5>
+                        <div>
+                           <span className='headingTxt'>Implement Company</span>
+                           <img className="smc" src={smc}></img>
+                           <img className="bkash1" src={bkash}></img>
+                           <img className="bkash2" src={bkash}></img>
+                           <button className='mark4'>Client Feedback <img src={mark4}></img> </button>
+                        </div>
+                        <p className='txt'>Field force management software is a solution to manage and optimize the field-based operations of an organization</p>
+                        <div>
+                           <button className='btn3'>Download Brochure <img src={download}></img> </button>
+                           <span>www.richfleet.com <img src={mark3}></img></span>
+                        </div>
+                     </div>
+                  </div>
+              </div>
+           </Container>
+        </section>
+
+        <section id="technology">
+            <div className="parent">
+               <h1 className="heading">Technology We Used</h1>
+               <div className="parent_div">
+                  <div className="txt">Entrusting the new technology to the most advanced programmers will ensure a more robust and high-performing system.</div>
+               </div>
+               <Container>
+                 <div className="square_container">
+                        <div><img src={dotnet} className='tech_img first_img'></img></div>
+                        <div><img src={flutter} className='tech_img'></img></div>
+                        <div><img src={react} className='tech_img'></img></div>
+                        <div><img src={angular} className='tech_img'></img></div>
+                        <div><img src={aws} className='tech_img last_img'></img></div>
+                        <div><img src={php} className='tech_img first_img'></img></div>
+                        <div><img src={java} className='tech_img'></img></div>
+                        <div><img src={vue} className='tech_img'></img></div>
+                        <div><img src={bootstrap} className='tech_img'></img></div>
+                        <div><img src={python} className='tech_img last_img'></img></div>
+                 </div>
                </Container>
             </div>
         </section>

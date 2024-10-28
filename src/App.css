@@ -368,6 +368,7 @@ body{
 
 /* service section starts */
    .service_container{
+    padding-bottom:60px;
     background: #F8FAFC;
    }
    .service_container h1{
@@ -424,6 +425,164 @@ body{
     border: none;
   }
 /* service section ends */
+
+/* product section starts */
+   #products{
+    margin-top: 104px;
+   }
+   #products .header_container{
+    display:flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+   }
+   #products .header_container .heading{
+    width: 411px;
+    height: 67px;
+    font-size: 38px;
+    margin-left: 1px;
+   }
+   #products .header_container button{
+    border:1px solid #E0E0E0;
+    width: 216px;
+    height: 56px;
+    padding: 16px 32px 16px 32px;
+    border-radius: 6px 0px 0px 0px;
+    background: white;
+    margin-right: 20px;
+   }
+   #products .parent{
+    display: flex;
+   }
+   #products .prod_left{
+    gap: 0px;
+    border-radius: 15px 15px 0px 0px;
+    opacity: 0px;
+   }
+   #products .prod_left_img{
+    width:570px;
+    height:510px;
+   }
+   #products .prod_bottom{
+    background: #F8FAFC;
+    padding-left: 30px;
+    padding-top: 25px;
+  }
+  #products p{
+    width: 531px;
+    height: 43px;
+  }
+  #products .headingTxt{
+    font-family: "Inter", sans-serif;
+    font-size:16px;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  #products .smc{
+    margin-right: 5px;
+  }
+  #products .bkash1{
+    margin-right: 5px;
+  }
+  #products .bkash2{
+    margin-right: 30px;
+  }
+  #products .mark4{
+    border:1px solid #E0E0E0;
+    width: 153px;
+    height: 40px;
+    background: #F8FAFC;
+    border-radius: 4px 0px 0px 0px;
+    font-size:14px;
+  }
+  #products .txt{
+    margin-top: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+  }
+  #products .btn3{
+    background: #E90404;;
+    color:white;
+    border-radius:6px;
+    padding: 10px;
+    height:40px;
+    border: none;
+    margin-right: 30px;
+  }
+  #products .left_child{
+    margin-right: 29px;
+  }
+  #products .prod_right_img{
+    width:530px;
+    height:510px;
+  }
+  #products .right{
+     width:530px;
+  }
+  #products .txt{
+    width:531px;
+ }
+/* product section ends */
+
+/* technology section starts */
+  #technology{
+    margin-top: 90px;
+  }
+  #technology .parent{
+    background: #F8FAFC;
+    width: 1440px;
+    width:100%;
+    height: 525px;
+  }
+  #technology .heading{
+    padding-top: 58px;
+    text-align: center;
+  }
+  #technology .parent_div{
+    display: flex;
+    justify-content:center;
+  }
+  #technology .parent_div  div {
+    font-family: "Inter", sans-serif;
+    border-radius: 10px;
+    background: white;
+    width: 1000px;
+    margin: 10px;
+    text-align: center;
+    padding:10px;
+  }
+  #technology .txt{
+    width:800;
+    height:100px;
+    font-family: "Inter", sans-serif;
+    font-size: 23px;
+  }
+  #technology .square_container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  #technology .square{
+    height:12px;
+    width:12px;
+  }
+  #technology .tech_img{
+    width: 120px;
+    height: 50px;
+    margin-right: 117px;
+    margin-bottom: 60px;
+  }
+  #technology .first_img{
+    margin-left: -60px;
+    margin-left: -10px;
+  }
+  #technology .last_img{
+    margin-right: 65px;
+    margin-right: 15px;
+  }
+  
+/* technology section ends */
+
 
 
 
